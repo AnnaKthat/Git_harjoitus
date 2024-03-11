@@ -1,0 +1,24 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: lightblue; /* Example background color */
+}
+
+#nav {
+    background-color: lightgreen; /* Example background color */
+}
+
+#section {
+    background-color: lightyellow; /* Example background color */
+}
+
+#header, #nav, #section {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Center text within each div */
+}
+
