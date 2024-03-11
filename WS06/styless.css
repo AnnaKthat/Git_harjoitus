@@ -1,0 +1,42 @@
+body {
+    background-color: gray; 
+    font-family: Arial, sans-serif; 
+}
+
+h1, h2 {
+    border-bottom: 2px solid #333; 
+    padding-bottom: 5px; 
+    float: none;
+    text-align: center;
+}
+
+p {
+    background-color: #e0e0e0; 
+    border-radius: 10px; 
+    padding: 10px; 
+}
+
+.nav-link {
+    position: absolute; 
+    top: 30px; 
+    left: 50px; 
+    text-decoration: none; 
+    color: #333;
+}
+
+.page-image {
+    display: block; 
+    margin: 20px auto; 
+}
+
+progress {
+    width: 100%; 
+    height: 20px; 
+    margin: 20px 0; 
+}
+
+section::after { 
+    content: "Back";
+    display: table;
+    clear: both;}
+   

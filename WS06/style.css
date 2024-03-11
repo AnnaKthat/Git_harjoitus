@@ -1,0 +1,23 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: lightgray; 
+}
+
+#nav {
+    background-color: lightgray; 
+}
+
+#section {
+    background-color: lightgray;
+}
+
+#header, #nav, #section {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
